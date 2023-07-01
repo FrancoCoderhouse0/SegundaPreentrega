@@ -1,0 +1,23 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.sub-btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(27, 27, 26);
+    color: white;
+}
+.contador{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn-2{
+    width: 150px;
+    font-size: 10px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: black;
+}

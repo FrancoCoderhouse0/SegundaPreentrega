@@ -7,13 +7,25 @@
 .foto{
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 900px;
 }
 
 .datos{
-    width: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 img{
-    width: 500px;
+    width: 400px;
+    /* border: 2px solid black; */
+}
+.nombre{
+    font-size: 30px;
+}
+.descripcion{
+    font-size: 20px;
 }

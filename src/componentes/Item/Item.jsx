@@ -9,7 +9,7 @@ return (
         <img src={img} alt="" className='img'/>
         <h1 className='nombre'>Nombre: {nombre}</h1>
         <h2 className='precio'>Precio: {precio}</h2>
-        <Link to={`/item/${id}`}>Ver detalles</Link>
+        <Link className="btn-detalle" to={`/item/${id}`}>Ver detalles</Link>
     </div>
 )
 }
