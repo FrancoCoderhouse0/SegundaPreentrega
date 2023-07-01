@@ -1,0 +1,18 @@
+.conteneor{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.foto{
+    display: flex;
+    
+}
+
+.datos{
+    width: 400px;
+}
+
+img{
+    width: 500px;
+}
