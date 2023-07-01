@@ -6,7 +6,8 @@
 
 .foto{
     display: flex;
-    
+    flex-direction: row;
+    max-width: 800px;
 }
 
 .datos{

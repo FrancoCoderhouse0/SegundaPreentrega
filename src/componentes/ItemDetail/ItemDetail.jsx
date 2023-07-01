@@ -20,9 +20,9 @@ return (
         <img src={img4} alt="" />
     </div>
     <div className="datos">
-        <h2>Nombre: {nombre} </h2>
-        <h3>Precio: {precio} </h3>
-        <h1>Descripcion: {descripcion}</h1>
+        <h2>{nombre} </h2>
+        <h3>{precio} </h3>
+        <h1>{descripcion}</h1>
     </div>
     </div>
 );
