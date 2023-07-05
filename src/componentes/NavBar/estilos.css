@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #373737;
+    background-color: #000000;
     align-items: center;
 }
 .menu ul {
@@ -42,7 +42,7 @@
 
 
 .menu ul li:hover {
-    background:#5b78a7;
+    background: rgb(255, 161, 161);
 }
 
 .logo {

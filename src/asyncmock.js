@@ -40,7 +40,7 @@ const misProductos = [
     descripcion: "Producto Limitado",
     talla: "[32, 34, 36]"
 },
-    { id: "7", nombre: "Nike React Pegasus Trail 4", precio: 72.000, img: "../img/running3.webp", idCat: "2", 
+    { id: "7", nombre: "Nike React Pegasus Trail 4", precio: 72.456, img: "../img/running3.webp", idCat: "2", 
     img2: "https://nikearprod.vtexassets.com/arquivos/ids/699190-1200-1200?v=638229614948000000&width=1200&height=1200&aspect=true",
     img3: "https://nikearprod.vtexassets.com/arquivos/ids/698618-1200-1200?v=638229593376400000&width=1200&height=1200&aspect=true",
     img4: "https://nikearprod.vtexassets.com/arquivos/ids/699189-1200-1200?v=638229614895870000&width=1200&height=1200&aspect=true",
