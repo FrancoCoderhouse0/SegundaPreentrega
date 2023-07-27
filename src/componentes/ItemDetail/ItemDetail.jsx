@@ -35,9 +35,24 @@ return (
         <h3>$ {precio} </h3>
         <p className="descripcion">{descripcion}</p>
         <p>tallas: {talla}</p>
-        {
-    agregarCantidad > 0 ? (<Link className='miBtn' to="/cart"> Terminar compra </Link>) : (<ItemCount inicial={1} stock={10} funcionAgregar={manejadorCantidad} />)
-}
+        {agregarCantidad > 0 ? (
+        <div className="compras">
+            <Link className="miBtn" to="/cart">
+            
+            Terminar compra
+            </Link>
+            <Link className="miBtn" to="/">
+            
+            Seguir Comprando
+            </Link>
+        </div>
+        ) : (
+            <ItemCount
+            inicial={1}
+            stock={10}
+            funcionAgregar={manejadorCantidad}
+        />
+        )}
     </div>
     <div className="foto">
         <img src={img} alt="" />

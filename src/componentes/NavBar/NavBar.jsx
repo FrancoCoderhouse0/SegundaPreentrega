@@ -12,7 +12,7 @@ const NavBar = () => {
             <ul>
                 <li><NavLink to="/categoria/1">Botines</NavLink></li>
                 <li><NavLink to="/categoria/2">Running</NavLink></li>
-                <li><NavLink to="/categoria/3">Moda</NavLink></li>
+                <li><NavLink to="/categoria/3">Trend</NavLink></li>
             </ul>
 </nav>
     )

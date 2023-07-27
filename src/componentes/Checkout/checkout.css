@@ -1,0 +1,5 @@
+.contenedor-checkout{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
