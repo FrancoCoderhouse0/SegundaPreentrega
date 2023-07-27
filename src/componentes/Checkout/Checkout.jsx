@@ -22,13 +22,13 @@ const Checkout = () => {
 
         //Verificamos que los campos esten completos: 
         if (!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
-            setError("Por favor completa todos los campos o moriras");
+            setError("Por favor completa todos los campos");
             return;
         }
 
         //Validamos que los campos del email coincidan 
         if (email !== emailConfirmacion) {
-            setError("Los campos del email no coinciden, maldito!!!");
+            setError("Los campos del email no coinciden!!!");
             return;
         }
 
@@ -77,14 +77,14 @@ const Checkout = () => {
             })
             .catch((error) => {
                 console.log("No se puede actualizar el stock", error);
-                setError("No se puede actualizar el stock, intente en Supermercado Vital");
+                setError("No se puede actualizar el stock");
             })
 
     }
 
     return (
         <div>
-            <h2> Checkout </h2>
+            <h2> Estado final de la compra</h2>
             <form onSubmit={manejadorFormulario}>
                 {
                     carrito.map(producto => (

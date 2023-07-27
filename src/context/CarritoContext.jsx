@@ -12,6 +12,7 @@ export const CarritoContext = createContext({
 
 //El valor inicial es un objeto con la propiedad "carrito", "total" y "cantidadTotal";
 
+// eslint-disable-next-line react/prop-types
 export const CarritoProvider = ({children}) => {
     //3) Creamos un estado local llamado "carrito" con useState. 
 
