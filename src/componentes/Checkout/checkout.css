@@ -1,5 +1,13 @@
-.contenedor-checkout{
-    display: flex;
-    flex-direction: column;
-    flex: auto;
+.fotoElegidos{
+    width: 4 rem;
+}
+
+.form{
+    width: 350px;
+    margin: 10px;
+
+}
+.formCarrito{
+    margin:10px;
+        
 }
