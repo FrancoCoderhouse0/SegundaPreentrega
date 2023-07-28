@@ -1,13 +1,15 @@
 .fotoElegidos{
     width: 4 rem;
+    display: flex;
+    justify-content: center;
 }
 
 .form{
     width: 350px;
     margin: 10px;
-
 }
 .formCarrito{
     margin:10px;
-        
+    display: flex;
+    flex-wrap: wrap
 }

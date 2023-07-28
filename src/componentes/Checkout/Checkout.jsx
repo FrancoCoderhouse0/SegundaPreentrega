@@ -52,7 +52,7 @@ const Checkout = () => {
 
         Promise.all(
             orden.items.map(async(productoOrden)=> {
-                const productoRef = doc(db, "libros",productoOrden.id);
+                const productoRef = doc(db, "inventario",productoOrden.id);
                 const productoDoc= await getDoc(productoRef);
                 const stockActual= productoDoc.data().stock;
                 await updateDoc(productoRef,{
@@ -98,7 +98,7 @@ const Checkout = () => {
                             
                         ))
                     }
-                    <p>Cantidad de libros en el carrito: {cantidadTotal}</p>
+                    <p>Cantidad de zapatillas: {cantidadTotal}</p>
                     <h2>Total Compra: $ {total}</h2>
                     <hr />
                     <Form.Group className="form" controlId="formBasicEmail">

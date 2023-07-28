@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./ItemDetail.css";
 import ItemCount from "../ItemCount/ItemCount";
@@ -24,7 +25,7 @@ const { agregarProducto } = useContext(CarritoContext);
 const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
 
-    const item = { id, nombre, precio };
+    const item = { id, nombre, precio, img };
     agregarProducto(item, cantidad);
 }
 
