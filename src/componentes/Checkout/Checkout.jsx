@@ -4,7 +4,7 @@ import { db } from "../../Firebase/config";
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import "./Checkout.css"
+import "./checkout.css"
 
 
 const Checkout = () => {
