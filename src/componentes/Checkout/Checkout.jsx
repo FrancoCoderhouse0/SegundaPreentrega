@@ -83,24 +83,9 @@ const Checkout = () => {
 
 
     return (
-        <div>
-                <h2>Checkout</h2>
+        <div className="container">
+                <h2 className="title">Final de la compra</h2>
                 <Form className="formCarrito" onSubmit = {manejadorFormulario}>
-                    {
-                        carrito.map(producto => (
-                            <div key={producto.item.id}>
-                                <p>{producto.item.nombre} x {producto.cantidad} unidades</p>
-                                <p>Precio por unidad: ${producto.item.precio}</p>
-                                <img className='fotoElegidos' src={producto.item.img} alt="{item.nombre}"></img>
-                                
-                                <hr />
-                            </div>
-                            
-                        ))
-                    }
-                    <p>Cantidad de zapatillas: {cantidadTotal}</p>
-                    <h2>Total Compra: $ {total}</h2>
-                    <hr />
                     <Form.Group className="form" controlId="formBasicEmail">
                         <Form.Label>Nombre</Form.Label>
                         <Form.Control type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />

@@ -7,9 +7,29 @@
 .form{
     width: 350px;
     margin: 10px;
+    
 }
 .formCarrito{
+    width: 100%;
     margin:10px;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title{
+    text-align: center;
+}
+.btn{
+    width: 350px;
+}
+.container{
+    background-color: rgba(112, 112, 112, 0.148);
+    margin-right: 0px;
+    min-width: 100%;
+    height: calc(100vh - 100px);
+    
 }

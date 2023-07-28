@@ -50,7 +50,7 @@ return (
         ) : (
             <ItemCount
             inicial={1}
-            stock={10}
+            stock={1000}
             funcionAgregar={manejadorCantidad}
         />
         )}
